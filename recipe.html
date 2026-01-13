@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>CookMate</title>
+</head>
+<body class="recipes-screen">
+    <!-- navigation bar -->
+    <nav class="top-nav">
+        <a href="menu.html" class="nav-link">Home</a>
+        <a href="recipe.html" class="nav-link">Recipes</a>
+        <a href="grocery.html" class="nav-link">Grocery</a>
+        <a href="suggestions.html" class="nav-link">Meals</a>
+    </nav>
+    <!-- recipe selection container -->
+    <main class="recipes-container">
+        <h1>Recipes</h1>
+        <!-- recipe buttons having data-recipe attribute that can be usede in javascript to call the recipe details -->
+        <button class="recipe-card-btn recipe-link-btn" data-recipe="chicken_stir_fry">Chicken Stir Fry</button>
+        <button class="recipe-card-btn recipe-link-btn" data-recipe="tofu_stir_fry">Tofu Stir Fry</button>
+        <button class="recipe-card-btn recipe-link-btn" data-recipe="chicken_broccoli_bake">Chicken & Broccoli Bake</button>
+        <button class="recipe-card-btn recipe-link-btn" data-recipe="tofu_broccoli_bake">Tofu & Broccoli Bake</button>
+        <button class="recipe-card-btn recipe-link-btn" data-recipe="chicken_rice_bowl">Chicken Rice Bowl</button>
+        <button class="recipe-card-btn recipe-link-btn" data-recipe="tofu_rice_bowl">Tofu Rice Bowl</button>
+        <button class="recipe-card-btn recipe-link-btn" data-recipe="chicken_hash">Chicken Hash</button>
+        <button class="recipe-card-btn recipe-link-btn" data-recipe="tofu_hash">Tofu Hash</button>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>

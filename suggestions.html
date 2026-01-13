@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CookMate</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="suggestion-screen">
+    <!-- navigation bar -->
+    <nav class="top-nav">
+        <a href="menu.html" class="nav-link">Home</a>
+        <a href="recipe.html" class="nav-link">Recipes</a>
+        <a href="grocery.html" class="nav-link">Grocery</a>
+        <a href="suggestions.html" class="nav-link">Meals</a>
+    </nav>
+    <!-- list of suggestions -->
+    <main class="recipes-container">
+        <h1>Suggestions</h1>
+        
+        <div id="suggestion-list"></div>
+        <!-- if no match found -->
+        <p id="no-match-msg">You don't have enough ingredients for any complete recipes yet!</p>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>

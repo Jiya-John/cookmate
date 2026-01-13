@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CookMate</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="detail-screen">
+    <!-- navigation bar -->
+    <nav class="top-nav">
+        <a href="menu.html" class="nav-link">Home</a>
+        <a href="recipe.html" class="nav-link">Recipes</a>
+        <a href="grocery.html" class="nav-link">Grocery</a>
+        <a href="suggestions.html" class="nav-link">Meals</a>
+    </nav>
+
+    <main class="detail-container">
+        <!-- recipe title -->
+        <h1 id="recipe-title" class="recipe-title-header">Loading...</h1>
+
+        <div class="recipe-detail-wrapper">
+            <!-- ingredients and instructions -->
+            <div class="recipe-text-content">
+                <h2>Ingredients</h2>
+                <ul id="ingredients-list"></ul>
+
+                <h2 style="margin-top: 30px;">Instructions</h2>
+                <p id="instructions-text"></p>
+            </div>
+
+            <div class="recipe-image-content">
+                <img id="recipe-image" src="" alt="Recipe Image">
+            </div>
+
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
